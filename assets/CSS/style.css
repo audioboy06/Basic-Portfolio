@@ -1,0 +1,48 @@
+/* CSS Page for Portfolio */
+
+body {
+    background-image: url("../Images/concrete_seamless.png");
+}
+
+h1 {
+    background-color: rgb(21, 146, 148);
+    color: whitesmoke;
+    margin: 0;
+    padding: 20px;
+    border: 20px;
+    text-align: left;
+    width: 200px;
+}
+
+h2 {
+    color: rgb(21, 146, 148);
+}
+
+#pic {
+    float: left;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+
+li {
+    /* float: right; */
+    display: inline-block;
+}
+
+li a {
+    display: block;
+    padding: 8px;
+}
+
+.navigation {
+    border: solid 1px red;
+    float: right;
+}
+#contact-info {
+    clear: both;
+}
